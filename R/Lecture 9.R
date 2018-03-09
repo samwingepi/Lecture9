@@ -15,7 +15,7 @@
 #' @examples
 #' inputdata<-c(0,2.457,3.878,3.663,1.90,-0.658,-2.943,-3.986,-3.349,-1.299,
 #' 1.299,3.349,3.986,2.943,0.658,-1.904,-3.663,-3.878,-2.457,0)
-#' movingaverage(x=inputdata,numbertoside=3,side="left")
+#' movingaverage(x=inputdata,numbertoside=3,side="right")
 
 # MOVING AVERAGE FNX FROM PREV HW
 movingaverage<-function(x=x,side="both",numbertoside=NULL){
@@ -81,4 +81,4 @@ SimTtestPower<-function(Var1mean=NULL,Var2mean=NULL,Var1sd=NULL,
   return(temppower)
 }
 
-# Made this change
+
