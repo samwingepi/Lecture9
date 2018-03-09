@@ -1,0 +1,15 @@
+Package: Lecture9
+Type: Package
+Title: Moving average function
+Version: 0.1.0
+Author: Sam Wing
+Maintainer: Sam Wing <samwing@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: UCLA
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr
+RoxygenNote: 6.0.1
