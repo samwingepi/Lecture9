@@ -80,3 +80,5 @@ SimTtestPower<-function(Var1mean=NULL,Var2mean=NULL,Var1sd=NULL,
   temppower<-sum(sigyesorno)/nsim
   return(temppower)
 }
+
+# Made this change
